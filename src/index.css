@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.CharacterContainer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-content: center; */
+  background-image: url(https://rickandmortypod.com/storage/2018/11/cropped-RM_page-header_background1-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.characterList{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* justify-content: center; */
+  /* align-content: center; */
+  flex-wrap: wrap;
+}
+
+.ImgCharacter{
+  width: 200px;
+  height: 200px;
+}
+
+.probamos{
+  background-color: #97ce4c;
+  color: white;
+  width: 220px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+header{
+  background-image: url(https://assets.stickpng.com/images/58f37720a4fa116215a9240f.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 120px;
+}
+
+.imgHeader{
+  width: 150px;
+  height: 120px;
+  margin-left: -500px;
+}

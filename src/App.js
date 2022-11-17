@@ -1,23 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import CharacterContainer from './components/CharacterContainer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header><img className='imgHeader' src='https://assets.stickpng.com/images/58f37731a4fa116215a92411.png'></img></header>
+      <CharacterContainer/>
     </div>
   );
 }
